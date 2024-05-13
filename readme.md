@@ -29,7 +29,7 @@ The HTML and CSS files for this exercise can be found in the [Ex4](Ex4/) directo
 
 - HTML: [index.html](Ex4/index.html)
 - CSS: [style.css](Ex4/css/style.css)
-![Exercise 5 Image](img/exercise5.png)
+![Exercise 5 Image](img/Screenshot%202024-05-13%20061200.png)
 ## Installation
 
 1. Clone the repository to your local machine.
