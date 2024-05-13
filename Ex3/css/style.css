@@ -1,0 +1,39 @@
+.container div div{
+   display: inline-block;
+}
+.container div div div{
+    background-color: green;
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   margin-left: 10px;
+   margin-bottom: 20px;
+   position: relative;
+
+}
+
+.container div.first-row div:nth-child(even) div{
+    background-color: blue;
+}
+
+.container div.second-row div:nth-child(odd) div{
+    background-color: blue;
+}
+
+.container div.third-row div:nth-child(even) div{
+    background-color: blue;
+}
+
+.container div.first-row div:nth-child(even) div::after, .container div.second-row div:nth-child(odd) div::after, .container div.third-row div:nth-child(even) div::after{
+    content: 'x';
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+
+.container div.first-row div:nth-child(odd) div::after, .container div.second-row div:nth-child(even) div::after, .container div.third-row div:nth-child(odd) div::after{
+    content: '.';
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}

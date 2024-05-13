@@ -1,0 +1,13 @@
+section div{
+    display: inline-block;
+    background-color: #FD0001;
+    color: #fff;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid #000;
+}
+
+section div:nth-child(even){
+   display: none;
+}
