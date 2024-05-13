@@ -18,7 +18,7 @@ This exercise demonstrates how to hide even numbers using CSS. The HTML and CSS 
 
 ## Exercise 3: Nested Div Styling
 
-This exercise involves styling nested div elements. The HTML and CSS files for this exercise can be found in the [Ex3](Ex3/) directory.
+This exercise involves styling nested div elements using nth-child. The HTML and CSS files for this exercise can be found in the [Ex3](Ex3/) directory.
 
 - HTML: [index.html](Ex3/index.html)
 - CSS: [style.css](Ex3/css/style.css)
